@@ -2,6 +2,26 @@
 Changelog for package turtlebot_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.4 (2015-01-07)
+------------------
+* remove turtlebot_capabilities from run_depend closes `#185 <https://github.com/turtlebot/turtlebot/issues/185>`_
+* Contributors: Jihoon Lee
+
+2.3.3 (2015-01-05)
+------------------
+* add kobuki_capabilities and turtlebot_capabilities as run_depend in turtlebot_bring fixes `#184 <https://github.com/turtlebot/turtlebot/issues/184>`_
+* Contributors: Jihoon Lee
+
+2.3.2 (2014-12-30)
+------------------
+
+2.3.1 (2014-12-30)
+------------------
+* use env for rapp parsing
+* use turtlebot as envinroment variable prefixes
+* install interactions directory closes `#176 <https://github.com/turtlebot/turtlebot/issues/176>`_
+* Contributors: Jihoon Lee
+
 2.3.0 (2014-11-30)
 ------------------
 * removing unused args
