@@ -2,6 +2,31 @@
 Changelog for package turtlebot_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.11 (2015-04-15)
+-------------------
+
+2.3.10 (2015-04-02)
+-------------------
+
+2.3.9 (2015-03-30)
+------------------
+
+2.3.8 (2015-03-23)
+------------------
+* replace fbx model to open collada model closes `#198 <https://github.com/turtlebot/turtlebot/issues/198>`_
+* Contributors: Jihoon Lee
+
+2.3.7 (2015-03-02)
+------------------
+
+2.3.6 (2015-02-27)
+------------------
+* add reasons for comment `#194 <https://github.com/turtlebot/turtlebot/issues/194>`_
+* update urdf. now new position uses asus_xtion_pro. Old position is asus_xtion_pro_offset
+* add asus, mount, and new pole
+* add urdf for asus center located version
+* Contributors: Jihoon Lee
+
 2.3.5 (2015-01-12)
 ------------------
 

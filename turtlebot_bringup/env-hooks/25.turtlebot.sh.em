@@ -10,7 +10,7 @@
 : ${TURTLEBOT_BASE:=kobuki}                           # create, roomba
 : ${TURTLEBOT_BATTERY:=/sys/class/power_supply/BAT0}  # /proc/acpi/battery/BAT0 in 2.6 or earlier kernels,  /sys/class/power_supply/ (kernels 3.0+) 
 : ${TURTLEBOT_STACKS:=hexagons}                       # circles, hexagons
-: ${TURTLEBOT_3D_SENSOR:=kinect}                      # kinect, asus_xtion_pro
+: ${TURTLEBOT_3D_SENSOR:=asus_xtion_pro}              # kinect, asus_xtion_pro, asus_xtion_pro_offset
 : ${TURTLEBOT_SIMULATION:=false}
 : ${TURTLEBOT_SERIAL_PORT:=/dev/kobuki}               # /dev/ttyUSB0, /dev/ttyS0
 
@@ -18,6 +18,7 @@
 : ${TURTLEBOT_TYPE:=turtlebot}
 : ${TURTLEBOT_RAPP_PACKAGE_WHITELIST:=[rocon_apps, turtlebot_rapps]}
 : ${TURTLEBOT_RAPP_PACKAGE_BLACKLIST:=[]}
+: ${TURTLEBOT_INTERACTIONS_LIST:=[turtlebot_bringup/admin.interactions, turtlebot_bringup/documentation.interactions, turtlebot_bringup/pairing.interactions, turtlebot_bringup/visualisation.interactions]}
 
 # Exports
 export TURTLEBOT_BASE
@@ -30,3 +31,4 @@ export TURTLEBOT_NAME
 export TURTLEBOT_TYPE
 export TURTLEBOT_RAPP_PACKAGE_WHITELIST
 export TURTLEBOT_RAPP_PACKAGE_BLACKLIST
+export TURTLEBOT_INTERACTIONS_LIST

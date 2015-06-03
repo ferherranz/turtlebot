@@ -2,6 +2,27 @@
 Changelog for package turtlebot_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.11 (2015-04-15)
+-------------------
+
+2.3.10 (2015-04-02)
+-------------------
+
+2.3.9 (2015-03-30)
+------------------
+
+2.3.8 (2015-03-23)
+------------------
+
+2.3.7 (2015-03-02)
+------------------
+
+2.3.6 (2015-02-27)
+------------------
+* remove turtlebot_teleop library from catkin_package call closes `#192 <https://github.com/turtlebot/turtlebot/issues/192>`_
+* remove old rosbuild imports no longer necessary
+* Contributors: Jihoon Lee, Tully Foote
+
 2.3.5 (2015-01-12)
 ------------------
 * update turtlebot_teleop url closes `#188 <https://github.com/turtlebot/turtlebot/issues/188>`_
